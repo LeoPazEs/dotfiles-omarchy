@@ -1,0 +1,12 @@
+## Additional Packages
+- yazi
+  - ffmpeg
+  - 7-Zip
+  - jq
+  - poppler
+  - fd
+  - rg
+  - fzf
+  - zoxide
+  - resvg
+  - imagemagick
