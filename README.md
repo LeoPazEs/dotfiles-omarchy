@@ -10,3 +10,13 @@
   - zoxide
   - resvg
   - imagemagick
+- zsh
+  - oh-my-zsh
+    - git
+    - poetry
+    - zsh-syntax-highlighting
+    - zsh-autosuggestions
+    - fnm
+- pyenv // pacman
+- python-pipx
+  - poetry
