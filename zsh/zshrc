@@ -1,3 +1,5 @@
+# Theme
+ZSH_THEME="amuse"
 # Oh my zsh plugins
 plugins=(git poetry zsh-syntax-highlighting zsh-autosuggestions)
 # Fastfetch
