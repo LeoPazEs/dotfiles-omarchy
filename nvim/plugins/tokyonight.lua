@@ -5,6 +5,11 @@ return {
 		vim.g.tokyonight_dark_float = false
 	end,
 	opts = {
+		transparent = true,
 		style = "night",
+		styles = {
+			sidebars = "transparent",
+			floats = "transparent",
+		},
 	},
 }
