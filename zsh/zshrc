@@ -6,8 +6,9 @@ export ZOXIDE_CMD_OVERRIDE='cd'
 
 # Oh my zsh plugins
 plugins=(git poetry zsh-syntax-highlighting zsh-autosuggestions zsh-navigation-tools zoxide eza)
+
 # Fastfetch
-if [ $SHLVL -eq 1 ]; then
+if [ $SHLVL -eq 1 ] && [ -z "$SKIP_FASTFETCH" ]; then
     fastfetch
 fi
 
