@@ -28,4 +28,8 @@ fi
 # zoxide
 eval "$(zoxide init zsh)"
 
+# aliases and envs for zsh
+source ~/.local/share/omarchy/default/bash/aliases
+source ~/.local/share/omarchy/default/bash/envs
+
 
