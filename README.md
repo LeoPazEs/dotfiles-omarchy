@@ -33,6 +33,7 @@
 - editor.neo-tree
 - formatting.black
 - formatting.prettier
+- coding.nvim-cmp
 
 ### Languages
 
