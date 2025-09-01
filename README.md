@@ -19,6 +19,9 @@
     - poetry
     - zsh-syntax-highlighting
     - zsh-autosuggestions
+    - zsh-navigation-tools
+    - zoxide
+    - eza
     - fnm
 - pyenv // pacman
 - python-pipx

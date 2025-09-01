@@ -1,7 +1,11 @@
 # Theme
 ZSH_THEME="amuse"
+
+# zoxide
+export ZOXIDE_CMD_OVERRIDE='cd'
+
 # Oh my zsh plugins
-plugins=(git poetry zsh-syntax-highlighting zsh-autosuggestions)
+plugins=(git poetry zsh-syntax-highlighting zsh-autosuggestions zsh-navigation-tools zoxide eza)
 # Fastfetch
 if [ $SHLVL -eq 1 ]; then
     fastfetch
@@ -25,11 +29,6 @@ if [ -d "$FNM_PATH" ]; then
   eval "`fnm env`"
 fi
 
-# zoxide
-eval "$(zoxide init zsh)"
 
-# aliases and envs for zsh
-source ~/.local/share/omarchy/default/bash/aliases
+# envs for zsh
 source ~/.local/share/omarchy/default/bash/envs
-
-
