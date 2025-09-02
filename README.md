@@ -26,6 +26,7 @@
 - pyenv // pacman
 - python-pipx
   - poetry
+- go
 
 ## Extras LazyVim
 
