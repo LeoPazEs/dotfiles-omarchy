@@ -34,6 +34,7 @@
 - ai.copilot
 - ai.copilot-chat
 - editor.neo-tree
+- editor.harpoon2
 - formatting.black
 - formatting.prettier
 - coding.nvim-cmp
