@@ -4,5 +4,8 @@ return {
 		ui = {
 			border = "single",
 		},
+		ensure_installed = {
+			"isort",
+		},
 	},
 }
