@@ -2,7 +2,8 @@ return {
 	"linux-cultist/venv-selector.nvim",
 	branch = "main", -- Use this branch for the new version
 	cmd = "VenvSelect",
-	enabled = true,
+	-- disabled because it conflicts with mypy
+	enabled = false,
 	opts = {
 		settings = {
 			options = {
