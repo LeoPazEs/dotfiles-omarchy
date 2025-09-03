@@ -7,6 +7,9 @@ return {
 				completion = cmp.config.window.bordered({}),
 				documentation = cmp.config.window.bordered({}),
 			}
+			opts.mapping = vim.tbl_extend("force", opts.mapping, {
+				["<CR>"] = cmp.config.disable,
+			})
 		end,
 	},
 }
