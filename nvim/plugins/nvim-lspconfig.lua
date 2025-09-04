@@ -6,5 +6,16 @@ return {
 				border = "single",
 			},
 		},
+		servers = {
+			pyright = {
+				settings = {
+					python = {
+						analysis = {
+							autoSearchPaths = true,
+						},
+					},
+				},
+			},
+		},
 	},
 }
