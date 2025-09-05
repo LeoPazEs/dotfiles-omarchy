@@ -6,13 +6,18 @@ return {
 				border = "single",
 			},
 		},
+		capabilities = {
+			workspace = {
+				didChangeWatchedFiles = {
+					dynamicRegistration = true,
+				},
+			},
+		},
 		servers = {
 			pyright = {
 				settings = {
 					python = {
 						analysis = {
-							watchForLibraryChanges = true,
-							autoSearchPaths = true,
 							useLibraryCodeForTypes = true,
 						},
 					},
