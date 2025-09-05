@@ -11,6 +11,7 @@ return {
 				settings = {
 					python = {
 						analysis = {
+							watchForLibraryChanges = true,
 							autoSearchPaths = true,
 						},
 					},
