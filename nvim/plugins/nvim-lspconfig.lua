@@ -13,6 +13,7 @@ return {
 						analysis = {
 							watchForLibraryChanges = true,
 							autoSearchPaths = true,
+							useLibraryCodeForTypes = true,
 						},
 					},
 				},
