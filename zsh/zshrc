@@ -38,3 +38,6 @@ source ~/.local/share/omarchy/default/bash/envs
 export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init - zsh)"
+
+# Cargo RUST path
+export PATH="$HOME/.cargo/bin:$PATH"
