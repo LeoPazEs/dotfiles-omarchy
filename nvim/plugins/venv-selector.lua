@@ -3,6 +3,8 @@ return {
 	branch = "main", -- Use this branch for the new version
 	cmd = "VenvSelect",
 	-- disabled because it conflicts with mypy
+	-- if enabled, has to disable the mypy report and create a hook to connect the mypy_pylsp to the venv when the
+	-- venv is changed
 	enabled = false,
 	opts = {
 		settings = {

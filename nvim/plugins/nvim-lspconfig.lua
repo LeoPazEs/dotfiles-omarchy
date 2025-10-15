@@ -16,6 +16,13 @@ return {
 							pylsp_mypy = {
 								enabled = true,
 								report_progress = true,
+								-- Point to the Neovim venv Python
+								overrides = {
+									"--python-executable",
+									os.getenv("VIRTUAL_ENV") and os.getenv("VIRTUAL_ENV") .. "/bin/python"
+										or vim.fn.exepath("python"),
+									true,
+								},
 							},
 							flake8 = {
 								enabled = false,
