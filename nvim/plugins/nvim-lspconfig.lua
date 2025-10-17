@@ -14,6 +14,7 @@ return {
 						plugins = {
 							-- install Mypy with :PylspInstall pylsp-mypy
 							pylsp_mypy = {
+								dmypy = true,
 								enabled = true,
 								report_progress = true,
 								-- Point to the Neovim venv Python
