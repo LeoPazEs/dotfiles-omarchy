@@ -6,15 +6,15 @@ return {
 				border = "single",
 			},
 		},
-		capabilities = {
-			workspace = {
-				didChangeWatchedFiles = {
-					dynamicRegistration = true,
-				},
-			},
-		},
 		servers = {
 			pyright = {
+				capabilities = {
+					workspace = {
+						didChangeWatchedFiles = {
+							dynamicRegistration = true,
+						},
+					},
+				},
 				settings = {
 					python = {
 						analysis = {
