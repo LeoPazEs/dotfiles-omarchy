@@ -1,5 +1,17 @@
 # Omarchy Dotfiles
 
+## Remove Packages
+
+- 1password
+
+## Remove WebApps
+
+- Basecamp
+- Google Messages
+- Google Contats
+- Google Chat
+- HEY
+
 ## Additional Packages
 
 - yazi
