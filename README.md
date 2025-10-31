@@ -1,5 +1,18 @@
 # Omarchy Dotfiles
 
+## Remove Packages
+
+- 1password
+
+## Remove WebApps
+
+- Basecamp
+- Google Messages
+- Google Contats
+- Google Photos
+- Figma
+- HEY
+
 ## Additional Packages
 
 - yazi

@@ -7,7 +7,16 @@ return {
 			},
 		},
 		servers = {
-			pyright = { enabled = false },
+			pyright = {
+				enabled = false,
+				capabilities = {
+					workspace = {
+						didChangeWatchedFiles = {
+							dynamicRegistration = true,
+						},
+					},
+				},
+			},
 			pylsp = {
 				settings = {
 					pylsp = {
