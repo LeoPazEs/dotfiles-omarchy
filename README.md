@@ -14,7 +14,7 @@
 - HEY
 
 ## Additional Packages
-
+- bitwarden
 - yazi
   - ffmpeg
   - 7-Zip
