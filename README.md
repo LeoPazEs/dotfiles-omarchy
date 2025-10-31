@@ -9,7 +9,8 @@
 - Basecamp
 - Google Messages
 - Google Contats
-- Google Chat
+- Google Photos
+- Figma
 - HEY
 
 ## Additional Packages
