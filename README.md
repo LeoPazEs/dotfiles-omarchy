@@ -27,6 +27,7 @@
   - zoxide
   - resvg
   - imagemagick
+  - ueberzugpp
 - zsh
   - oh-my-zsh
     - git
