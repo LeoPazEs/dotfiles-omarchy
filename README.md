@@ -3,6 +3,7 @@
 ## Remove Packages
 
 - 1password
+- alacritty
 
 ## Remove WebApps
 
@@ -15,6 +16,7 @@
 
 ## Additional Packages
 
+- ghostty
 - bitwarden
 - yazi
   - ffmpeg
@@ -27,7 +29,6 @@
   - zoxide
   - resvg
   - imagemagick
-  - ueberzugpp
 - zsh
   - oh-my-zsh
     - git
