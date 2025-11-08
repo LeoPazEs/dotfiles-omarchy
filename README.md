@@ -3,6 +3,7 @@
 ## Remove Packages
 
 - 1password
+- alacritty
 
 ## Remove WebApps
 
@@ -15,6 +16,7 @@
 
 ## Additional Packages
 
+- ghostty
 - bitwarden
 - yazi
   - ffmpeg
