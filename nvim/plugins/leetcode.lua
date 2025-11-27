@@ -7,6 +7,13 @@ return {
 		"MunifTanjim/nui.nvim",
 	},
 	opts = {
-		-- configuration goes here
+		injector = {
+			["cpp"] = {
+				imports = function()
+					return { "#include <bits/stdc++.h>", "using namespace std;" }
+				end,
+				after = "int main() {}",
+			},
+		},
 	},
 }
