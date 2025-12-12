@@ -43,6 +43,16 @@
 - python-pipx
   - poetry
 - go
+- LaTeX Packages
+  - zathura
+    - zathura-pdf-mupdf
+  - texlive-binextra
+  - texlive-basic
+  - texlive-latex
+  - texlive-latexextra
+  - texlive-bibtexextr
+  - texlive-langportuguese
+  - texlive-fontsrecommended
 
 ## Extras LazyVim
 
