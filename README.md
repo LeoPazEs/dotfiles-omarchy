@@ -68,3 +68,4 @@
 - lang.toml
 - lang.typescript
 - lang.yaml
+- lang.tex
