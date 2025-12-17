@@ -48,6 +48,7 @@
     - zathura-pdf-mupdf
   - texlive-binextra
   - texlive-basic
+    - AUR abntex2
   - texlive-latex
   - texlive-latexextra
   - texlive-bibtexextr
