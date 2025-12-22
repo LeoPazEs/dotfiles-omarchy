@@ -43,6 +43,17 @@
 - python-pipx
   - poetry
 - go
+- LaTeX Packages
+  - zathura
+    - zathura-pdf-mupdf
+  - texlive-binextra
+  - texlive-basic
+    - AUR abntex2
+  - texlive-latex
+  - texlive-latexextra
+  - texlive-bibtexextr
+  - texlive-langportuguese
+  - texlive-fontsrecommended
 
 ## Extras LazyVim
 
@@ -68,3 +79,4 @@
 - lang.toml
 - lang.typescript
 - lang.yaml
+- lang.tex
