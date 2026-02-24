@@ -58,6 +58,8 @@
   - texlive-bibtexextr
   - texlive-langportuguese
   - texlive-fontsrecommended
+  - Libs for ABNT LaTeX
+    - yay abntex2
 
 ## Extras LazyVim
 
