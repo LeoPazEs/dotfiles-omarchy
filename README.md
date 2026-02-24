@@ -39,10 +39,14 @@
     - zoxide
     - eza
     - fnm
-- pyenv // pacman
+- pyenv
+  - Install it from pacman
 - python-pipx
   - poetry
 - go
+- rust
+  - Will install rustc and cargo
+- tree-sitter-cli // cargo
 - LaTeX Packages
   - zathura
     - zathura-pdf-mupdf
@@ -54,6 +58,8 @@
   - texlive-bibtexextr
   - texlive-langportuguese
   - texlive-fontsrecommended
+  - Libs for ABNT LaTeX
+    - yay abntex2
 
 ## Extras LazyVim
 
