@@ -9,6 +9,10 @@ return {
 			"isort",
 			-- Latex texlab (build/forward search)
 			"texlab",
+			-- Bash
+			"shellcheck",
+			"bash-language-server",
+			"shfmt",
 		},
 	},
 }
