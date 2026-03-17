@@ -37,7 +37,6 @@
     - zsh-autosuggestions
     - zsh-navigation-tools
     - zoxide
-    - eza
     - fnm
 - pyenv
   - Install it from pacman
