@@ -1,6 +1,3 @@
-# TOP OF THE BASHRC
-[[ $- == *i* ]] && source -- /usr/share/blesh/ble.sh --attach=none
-
 # Fastfetch
 if [ $SHLVL -eq 1 ] && [ -z "$SKIP_FASTFETCH" ]; then
   fastfetch
@@ -15,6 +12,3 @@ function y() {
   rm -f -- "$tmp"
 }
 bind '"\C-e": "y\n"'
-
-# END OF FILE
-[[ ! ${BLE_VERSION-} ]] || ble-attach
