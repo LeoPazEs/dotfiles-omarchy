@@ -29,6 +29,8 @@
   - zoxide
   - resvg
   - imagemagick
+- ble.sh
+  - yay blesh
 - pyenv
   - Install it from pacman
 - python-pipx
