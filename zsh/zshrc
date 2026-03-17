@@ -4,8 +4,9 @@ ZSH_THEME="amuse"
 # zoxide
 export ZOXIDE_CMD_OVERRIDE='cd'
 
+
 # Oh my zsh plugins
-plugins=(git poetry zsh-syntax-highlighting zsh-autosuggestions zsh-navigation-tools zoxide eza virtualenv)
+plugins=(git poetry zsh-syntax-highlighting zsh-autosuggestions zsh-navigation-tools zoxide virtualenv)
 
 # Fastfetch
 if [ $SHLVL -eq 1 ] && [ -z "$SKIP_FASTFETCH" ]; then
