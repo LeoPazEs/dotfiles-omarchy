@@ -7,10 +7,8 @@ return {
 	-- venv is changed
 	enabled = false,
 	opts = {
-		settings = {
-			options = {
-				notify_user_on_venv_activation = true,
-			},
+		options = {
+			picker = "snacks",
 		},
 	},
 	--  Call config for python files and load the cached venv automatically
