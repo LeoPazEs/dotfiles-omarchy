@@ -4,14 +4,6 @@ ZSH_THEME="amuse"
 # zoxide
 export ZOXIDE_CMD_OVERRIDE='cd'
 
-# eza
-if command -v eza &> /dev/null; then
-  alias ls='eza -lh --group-directories-first --icons=auto'
-  alias lsa='ls -a'
-  alias lt='eza --tree --level=2 --long --icons --git'
-  alias lta='lt -a'
-fi
-
 # Oh my zsh plugins
 plugins=(git poetry zsh-syntax-highlighting zsh-autosuggestions zsh-navigation-tools zoxide eza virtualenv)
 
@@ -30,6 +22,14 @@ function y() {
 	rm -f -- "$tmp"
 }
 bindkey -s '^e' 'y\n'
+
+# eza
+if command -v eza &> /dev/null; then
+  alias ls='eza -lh --group-directories-first --icons=auto'
+  alias lsa='ls -a'
+  alias lt='eza --tree --level=2 --long --icons --git'
+  alias lta='lt -a'
+fi
 
 # fnm
 FNM_PATH="/home/leopazes/.local/share/fnm"
