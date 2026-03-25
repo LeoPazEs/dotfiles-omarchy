@@ -50,6 +50,8 @@
   - texlive-fontsrecommended
   - Libs for ABNT LaTeX
     - yay abntex2
+- Starship
+  - preset nerd-font-symbols
 
 ## Extras LazyVim
 
