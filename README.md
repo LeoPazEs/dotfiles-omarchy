@@ -33,6 +33,7 @@
   - Install it from pacman
 - python-pipx
   - poetry
+- uv
 - go
 - rust
   - Will install rustc and cargo
