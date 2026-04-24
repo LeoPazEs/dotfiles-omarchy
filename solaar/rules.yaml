@@ -1,0 +1,33 @@
+%YAML 1.3
+---
+- Rule:
+  - Test: [thumb_wheel_down, 5]
+  - KeyPress:
+    - [Control_L, minus]
+    - click
+- Rule:
+  - Test: [thumb_wheel_up, 5]
+  - KeyPress:
+    - [Control_R, equal]
+    - click
+- Rule:
+  - MouseGesture: Mouse Up
+  - KeyPress:
+    - [Super_R, s]
+    - click
+- Rule:
+  - MouseGesture: Mouse Down
+  - KeyPress:
+    - [Super_R, Control_L, Tab]
+    - click
+- Rule:
+  - MouseGesture: Mouse Right
+  - KeyPress:
+    - [Super_R, Tab]
+    - click
+- Rule:
+  - MouseGesture: Mouse Left
+  - KeyPress:
+    - [Super_R, Shift_R, Tab]
+    - click
+...
