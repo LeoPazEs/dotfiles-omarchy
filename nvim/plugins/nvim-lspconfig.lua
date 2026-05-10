@@ -7,9 +7,6 @@ return {
 			},
 		},
 		servers = {
-			pylsp = {
-				enabled = false,
-			},
 			pyright = {
 				enabled = false,
 				capabilities = {
