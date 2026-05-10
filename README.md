@@ -53,6 +53,8 @@
     - yay abntex2
 - Starship
   - preset nerd-font-symbols
+- Solaar
+  - If logitech mouse
 
 ## Extras LazyVim
 
