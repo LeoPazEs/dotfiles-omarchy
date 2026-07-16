@@ -41,16 +41,8 @@
 - LaTeX Packages
   - zathura
     - zathura-pdf-mupdf
-  - texlive-binextra
-  - texlive-basic
-    - AUR abntex2
-  - texlive-latex
-  - texlive-latexextra
-  - texlive-bibtexextr
+  - texlive
   - texlive-langportuguese
-  - texlive-fontsrecommended
-  - Libs for ABNT LaTeX
-    - yay abntex2
 - Starship
   - preset nerd-font-symbols
 - Solaar

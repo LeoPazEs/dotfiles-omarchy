@@ -48,9 +48,7 @@ return {
 				},
 			},
 			texlab = {
-				keys = {
-					{ "<Leader>K", "<plug>(vimtex-doc-package)", desc = "Vimtex Docs", silent = true },
-				},
+				keys = {},
 				settings = {
 					texlab = {
 						auxDirectory = "build",
@@ -69,8 +67,8 @@ return {
 							forwardSearchAfter = true,
 						},
 						forwardSearch = {
-							executable = "zathura",
-							args = { "--synctex-forward", "%l:1:%f", "%p" },
+							executable = "evince",
+							args = { "%p" },
 						},
 						chktex = { onOpenAndSave = true, onEdit = false },
 					},
