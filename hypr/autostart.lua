@@ -7,5 +7,5 @@ o.launch_on_start("solaar -w hide")
 --  I am using the omarchy-launch-terminal and not the function command_from because the function is local in the helpers.lua!
 hl.on("hyprland.start", function()
 	hl.exec_cmd("omarchy-launch-terminal", { workspace = "1 silent" })
-	hl.exec_cmd("omarchy-launch-browser", { workspace = "2 silent" })
+	hl.exec_cmd("omarchy-launch-browser", { workspace = "1 silent" })
 end)

@@ -3,6 +3,7 @@ local function chain_commands(...)
 	local commands = { ... }
 	return table.concat(commands, " & ")
 end
+
 hl.workspace_rule({
 	workspace = "6",
 	on_created_empty = chain_commands(
