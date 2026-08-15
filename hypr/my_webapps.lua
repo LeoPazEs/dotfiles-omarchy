@@ -5,4 +5,6 @@ return {
 	MY_MESSENGER = "https://web.whatsapp.com/",
 	INSTAGRAM = "https://instagram.com",
 	TWITTER = "https://x.com/",
+	MY_AI = "https://gemini.google.com",
+	DISCORD = "https://discord.com/channels/@me",
 }
