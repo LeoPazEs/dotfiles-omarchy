@@ -3,7 +3,6 @@
 ## Remove Packages
 
 - 1password
-- alacritty
 
 ## Remove WebApps
 
@@ -17,6 +16,7 @@
 ## Additional Packages
 
 - ghostty
+  - Set as default terminal
 - bitwarden
 - yazi
   - ffmpeg
