@@ -9,7 +9,6 @@
 - Basecamp
 - Google Messages
 - Google Contats
-- Google Photos
 - Figma
 - HEY
 
