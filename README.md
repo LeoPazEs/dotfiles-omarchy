@@ -50,7 +50,7 @@
 ## Extras LazyVim
 
 ### Plugins
-
+- omarchy plugin  Focusd
 - ai.copilot
 - ai.copilot-chat
 - editor.neo-tree
