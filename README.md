@@ -38,19 +38,21 @@
   - Will install rustc and cargo
 - tree-sitter-cli // cargo
 - LaTeX Packages
-  - zathura
-    - zathura-pdf-mupdf
   - texlive
   - texlive-langportuguese
 - Starship
   - preset nerd-font-symbols
 - Solaar
   - If logitech mouse
+- rclone
+  - For the cloud omarchy plugin
 
 ## Extras LazyVim
 
 ### Plugins
-- omarchy plugin  Focusd
+- Omarchy Plugins
+  - Focusd
+  - cloud
 - ai.copilot
 - ai.copilot-chat
 - editor.neo-tree
