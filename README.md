@@ -9,7 +9,6 @@
 - Basecamp
 - Google Messages
 - Google Contats
-- Google Photos
 - Figma
 - HEY
 
@@ -39,26 +38,28 @@
   - Will install rustc and cargo
 - tree-sitter-cli // cargo
 - LaTeX Packages
-  - zathura
-    - zathura-pdf-mupdf
   - texlive
   - texlive-langportuguese
 - Starship
   - preset nerd-font-symbols
 - Solaar
   - If logitech mouse
+- rclone
+  - For the cloud omarchy plugin
+
+## Omarchy Plugins
+
+- Focusd
+- cloud
 
 ## Extras LazyVim
 
 ### Plugins
-
-- ai.copilot
-- ai.copilot-chat
+- coding.nvim-cmp
 - editor.neo-tree
-- editor.harpoon2
 - formatting.black
 - formatting.prettier
-- coding.nvim-cmp
+
 
 ### Languages
 
@@ -72,4 +73,3 @@
 - lang.toml
 - lang.typescript
 - lang.yaml
-- lang.tex
