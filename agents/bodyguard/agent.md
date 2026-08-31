@@ -1,6 +1,17 @@
 ---
 description: "Analyze the project for security vulnerabilities, misconfigurations, and architectural risks."
 name: "Bodyguard"
+tools:
+  - view_file
+  - grep_search
+  - find_by_name
+  - list_dir
+  - run_command
+  - manage_task
+  - read_url_content
+  - search_web
+  - ask_question
+  - send_message
 ---
 
 # Security mode instructions

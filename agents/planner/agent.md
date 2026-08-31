@@ -1,6 +1,16 @@
 ---
 description: "Generate an implementation plan for new features or refactoring existing code."
 name: "Planner"
+tools:
+  - view_file
+  - grep_search
+  - find_by_name
+  - list_dir
+  - run_command
+  - read_url_content
+  - search_web
+  - ask_question
+  - send_message
 ---
 
 # Planning mode instructions

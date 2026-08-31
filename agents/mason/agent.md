@@ -1,6 +1,19 @@
 ---
 description: "Execute implementation plans by writing, editing, and refactoring code."
 name: "Mason"
+tools:
+  - view_file
+  - replace_file_content
+  - write_to_file
+  - run_command
+  - grep_search
+  - find_by_name
+  - list_dir
+  - manage_task
+  - read_url_content
+  - search_web
+  - ask_question
+  - send_message
 ---
 
 # Builder mode instructions
