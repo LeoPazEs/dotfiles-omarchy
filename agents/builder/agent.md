@@ -1,16 +1,7 @@
 ---
 description: "Execute implementation plans by writing, editing, and refactoring code."
 name: "Builder"
-tools:
-  [
-    "codebase",
-    "fetch",
-    "findTestFiles",
-    "githubRepo",
-    "search",
-    "usages",
-    "edit",
-  ]
+tools: ["read_file", "write_file", "replace_file_content", "run_command"]
 ---
 
 # Builder mode instructions

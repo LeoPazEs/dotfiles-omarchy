@@ -1,7 +1,7 @@
 ---
 description: "Analyze and explain the project's structure, architecture, and core functionalities."
 name: "Discoverer"
-tools: ["codebase", "fetch", "findTestFiles", "githubRepo", "search", "usages"]
+tools: ["read_file", "run_command"]
 ---
 
 # Discoverer mode instructions

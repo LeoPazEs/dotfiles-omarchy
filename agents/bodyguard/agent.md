@@ -1,7 +1,7 @@
 ---
 description: "Analyze the project for security vulnerabilities, misconfigurations, and architectural risks."
 name: "Bodyguard"
-tools: ["codebase", "fetch", "findTestFiles", "githubRepo", "search", "usages"]
+tools: ["read_file", "run_command", "search_web"]
 ---
 
 # Security mode instructions
