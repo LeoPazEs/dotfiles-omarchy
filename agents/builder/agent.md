@@ -1,7 +1,6 @@
 ---
 description: "Execute implementation plans by writing, editing, and refactoring code."
-name: "Builder"
-tools: ["read_file", "write_file", "replace_file_content", "run_command"]
+name: "Mason"
 ---
 
 # Builder mode instructions

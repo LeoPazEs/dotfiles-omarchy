@@ -1,7 +1,6 @@
 ---
 description: "Analyze and explain the project's structure, architecture, and core functionalities."
 name: "Discoverer"
-tools: ["read_file", "run_command"]
 ---
 
 # Discoverer mode instructions
