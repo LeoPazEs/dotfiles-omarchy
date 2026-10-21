@@ -63,6 +63,7 @@
 - editor.neo-tree
 - formatting.black
 - formatting.prettier
+- dap.core
 
 
 ### Languages
