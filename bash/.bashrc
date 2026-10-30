@@ -16,3 +16,5 @@ bind '"\C-e": "y\n"'
 export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init - bash)"
+
+export PATH="$HOME/go/bin:$PATH"
