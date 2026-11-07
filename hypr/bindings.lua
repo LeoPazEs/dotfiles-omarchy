@@ -29,7 +29,6 @@
 -- o.bind("SUPER + PERIOD", nil, "omarchy-shell shell toggle omarchy.emojis")
 local MY_WEBAPPS = require("my_webapps")
 o.bind("SUPER + E", "TUI File Manager", { omarchy = "terminal -e bash -i -c 'y; exec env SKIP_FASTFETCH=1 bash'" })
-o.bind("SUPER + SHIFT + T", "Activity", { tui = "btop", focus = true })
 hl.unbind("SUPER + A")
 o.bind("SUPER + A", "Omawrite", { launch = "omawrite" })
 hl.unbind("SUPER + SHIFT + W") -- Omawrite
