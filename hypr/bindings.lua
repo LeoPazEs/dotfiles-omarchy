@@ -50,15 +50,18 @@ o.bind("SUPER + M", "Omarchy menu", "omarchy-menu toggle")
 o.bind("SUPER + R", "Apps menu", "omarchy-menu toggle apps")
 -- Move focus with SUPER
 o.bind("SUPER + H", "Focus on left window", hl.dsp.focus({ direction = "l" }))
+o.bind("SUPER + SHIFT + ALT + H", "Move workspace to left monitor", hl.dsp.workspace.move({ monitor = "l" }))
 
 hl.unbind("SUPER + L")
--- o.bind("SUPER + ALT + L", "Toggle workspace layout", "omarchy-hyprland-workspace-layout-toggle")
 o.bind("SUPER + L", "Focus on right window", hl.dsp.focus({ direction = "r" }))
+o.bind("SUPER + SHIFT + ALT + L", "Move workspace to right monitor", hl.dsp.workspace.move({ monitor = "r" }))
 
 hl.unbind("SUPER + K")
 o.bind("SUPER + SHIFT + K", "Keybindings", "omarchy-menu-keybindings")
 o.bind("SUPER + K", "Focus on above window", hl.dsp.focus({ direction = "u" }))
+o.bind("SUPER + SHIFT + ALT + K", "Move workspace to up monitor", hl.dsp.workspace.move({ monitor = "u" }))
 
 hl.unbind("SUPER + J")
 o.bind("SUPER + X", "Toggle window split", hl.dsp.layout("togglesplit"))
 o.bind("SUPER + J", "Focus on below window", hl.dsp.focus({ direction = "d" }))
+o.bind("SUPER + SHIFT + ALT + J", "Move workspace to down monitor", hl.dsp.workspace.move({ monitor = "d" }))
