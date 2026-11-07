@@ -30,8 +30,9 @@
 local MY_WEBAPPS = require("my_webapps")
 o.bind("SUPER + E", "TUI File Manager", { omarchy = "terminal -e bash -i -c 'y; exec env SKIP_FASTFETCH=1 bash'" })
 o.bind("SUPER + SHIFT + T", "Activity", { tui = "btop", focus = true })
-hl.unbind("SUPER + SHIFT + W") -- Omawrite
+hl.unbind("SUPER + A")
 o.bind("SUPER + A", "Omawrite", { launch = "omawrite" })
+hl.unbind("SUPER + SHIFT + W") -- Omawrite
 o.bind("SUPER + SHIFT + W", "WhatsApp", { webapp = MY_WEBAPPS.MY_MESSENGER, focus = true })
 hl.unbind("SUPER + SHIFT + SLASH")
 o.bind("SUPER + SHIFT + SLASH", "Passwords", { launch = "bitwarden-desktop", focus = true })
@@ -44,13 +45,14 @@ o.bind("SUPER + SHIFT + E", "Email", { webapp = MY_WEBAPPS.MY_EMAIL })
 o.bind("SUPER + SHIFT + I", "Instagram", { webapp = MY_WEBAPPS.INSTAGRAM, focus = true })
 o.bind("SUPER + SHIFT + ALT + D", "Discord", { webapp = MY_WEBAPPS.DISCORD, focus = true })
 -- Utilities
+hl.unbind("SUPER + M")
 o.bind("SUPER + M", "Omarchy menu", "omarchy-menu toggle")
 o.bind("SUPER + R", "Apps menu", "omarchy-menu toggle apps")
 -- Move focus with SUPER
 o.bind("SUPER + H", "Focus on left window", hl.dsp.focus({ direction = "l" }))
 
 hl.unbind("SUPER + L")
-o.bind("SUPER + ALT + L", "Toggle workspace layout", "omarchy-hyprland-workspace-layout-toggle")
+-- o.bind("SUPER + ALT + L", "Toggle workspace layout", "omarchy-hyprland-workspace-layout-toggle")
 o.bind("SUPER + L", "Focus on right window", hl.dsp.focus({ direction = "r" }))
 
 hl.unbind("SUPER + K")
